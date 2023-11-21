@@ -1,0 +1,248 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: royalblue;   
+}
+
+.container main{
+    flex: 1 1 0;
+}
+
+.principal{
+    display: flex;
+    min-width:100%;
+    flex-direction: column;
+    align-items: center;
+}
+.bote{
+    display:flex;
+    min-width: 50%;
+    padding: 20px;
+    gap: 30px;
+    background-color: royalblue;
+    align-items: center;
+    text-align:center;
+}
+.menu-scroll{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+button{
+    border: none;
+    background-color: rgb(65, 225, 105);
+}
+
+.info{
+    min-width: 60%;
+    max-height: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.info2{
+
+    display:flex;
+    padding:10px;
+    gap: 10vw;
+    min-width: 80%;
+    min-height: 50%;
+    max-height: 35vw;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    flex-direction: column;
+    align-items:stretch;
+   
+}
+.resumo{
+    display:flex;
+
+    height: 100%; 
+    min-width:  25vw;
+    max-height: auto;
+    flex-direction: column;
+   
+}
+
+.texto{
+    display:flex;
+    align-items: center;
+}
+
+.imagem{
+    gap: 20px;
+    padding: 10px;
+
+    height: 100%; 
+    min-width:  25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.units{
+    width: 10vw;
+    
+}
+
+.Unit1{
+    display: flex;
+    align-items:stretch;
+    background-color: rgb(65, 108, 225);
+    height: 100%; 
+    min-width:  62vw;
+}
+.Unit2{
+    display: flex;
+    align-items:stretch;
+    background-color: rgb(65, 108, 225);
+    height: auto; 
+    min-width:  62vw;
+}
+.Unit3{
+    display: flex;
+    align-items:stretch;
+    background-color: rgb(65, 108, 225);
+    height: auto; 
+    min-width:  62vw;
+}
+.Unit4{
+    display: flex;
+    align-items:stretch;
+    background-color: rgb(65, 108, 225);
+    height: auto; 
+    min-width:  62vw;
+}
+.Unit5{
+    display: flex;
+    align-items:stretch;
+    background-color: rgb(65, 108, 225);
+    height: auto; 
+    min-width:  62vw;
+}
+
+.menu-drop {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: royalblue;
+    
+}
+
+.menu-drop a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline;
+}
+
+.menu-drop button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-drop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.menu-drop li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-drop li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-drop ul li {
+    width: 100%;
+    text-align: center;
+}
+
+.menu-drop ul li a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-drop ul li a:hover {
+    background-color: azure;
+}
+
+.us {
+    height: 100px; /* Ajuste conforme necessário */
+    width: auto;
+    margin-left: 10px; /* Espaçamento entre a imagem e os botões */
+}
+
+.resumo-img{
+    min-height: 30%; /* Ajuste conforme necessário */
+    min-width: 30%;
+    margin: 10px; /* Espaçamento entre a imagem e os botões */
+}
+.rede-img{
+    height: 35px; /* Ajuste conforme necessário */
+    width: auto;
+    margin: 10px; /* Espaçamento entre a imagem e os botões */
+}
+
+.begin{
+    background-color: rgb(192, 255, 226);
+    font-size: 16px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(81, 65, 225);
+}
+
+.talk{
+
+}
+
+.menu-bot{
+
+}
+
+.img{
+   
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.copy{
+
+}
